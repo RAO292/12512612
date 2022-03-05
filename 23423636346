@@ -1,0 +1,199 @@
+# 함수
+# 코드들의 집합
+# 반복적으로 사용 가능
+# 논리적으로 프로그램 할 수 있다
+
+# def 함수명():  # 함수를 이용 할 때 다음 가 같이 적어야 함
+#       (수행할 문장)1
+#       (수행할 문장)2
+#      함수명()
+# def A(): #괄호안에 매개변수가 없을 수 있고 다음과 같은 함수는 말의 문장을 출력해준다.
+#     print("good morning!")
+
+# def B(message):
+#     print(message)
+
+# def plus(x,y):
+#     print(x+y)
+
+# B("Hello!") #인수 , 함수를 실행할 때 적어 줘야함
+# plus(7,5) #인수
+
+# def minus(x,y):
+#     print(x-y)
+# a = 7
+# b = 5
+# a = int(input())
+# b = int(input())
+# minus(a,b)
+# minus(b,a)
+# minus(a+1, 10//2)
+
+# def average(x,y,z):
+#     print("average=%d"%((x+y+z)/3))
+# a = 7
+# b = 5
+# c = 9
+
+# average(a,b,c)
+# average(10,b,0) #값을 변경할 수 있다. (변수니까)
+
+# def change(p, m):
+#     print("물건 값 = %d" %(p))
+#     print("받은 돈 = %d" %(m))
+#     print("거스름 돈 = %d" %(m-p))
+
+# price = int(input("물건 값? ")) #입력 가능하다
+# money = int(input("받은 돈? "))
+
+# change(price, money)
+
+# def welcome(n,p):
+#     print("안녕하세요 %s님"%(n))
+#     print("현재 %d 포인트를 보유하고 있습니다"%(p))
+# name = input()
+# point = int(input())
+
+# welcome(name, point)
+
+# def minus(x,y):
+#     z = x-y
+#     print(z)
+#     return z
+
+# a = 7
+# b = 5
+# c = minus(a,b)
+# minus(a,b)
+# print(c)
+# d = c+10
+# print(d)
+# if c > 0:
+#     print("c의 값은 양수이다.")
+
+# def even(n):
+#     return n % 2 == 0
+# x = int(input())
+# if even(x):
+#     print("짝수이다")
+# else:
+#     print("홀수이다")
+
+# def allot(sum, n):
+#     return sum // n
+# price = int(input())
+# months = int(input())
+
+# if months < 3 or months > 12:
+#     print("3~13개월 할부만 가능합니다")
+# else:
+#     amt = allot(price, months)
+#     print("월할부금은 %d입니다"%(amt))
+
+# def code():
+#     print("원라는 거래번호를 선택하세요")
+#     print("1 입금")
+#     print("2 출금")
+#     print("3 취소")
+#
+#     code = int(input("거래번호 : "))
+#     return code
+#
+# c = code()
+# print("%d번을 선택하셨습니다."%(c))
+
+# def square(a):
+#     return a**2
+# def addsquare(a,b):
+#     return square(a) + square(b)
+# print("두개의 수를 입력하시오")
+# x = int(input())
+# y = int(input())
+# print("두 수의 제곱을 합은 %d이다"%(addsquare(x,y)))
+
+# R = int(input())
+
+# if R == 1:
+#     def A(a):
+#         return a + 0
+
+
+#     def addA(a, b):
+#         return A(a) + A(b)
+
+
+#     print("두개의 수를 입력하시오")
+#     x = int(input())
+#     y = int(input())
+#     print("두 수의 합은 %d이다" % (addA(x, y)))
+# elif R == 2:
+#     def B(a):
+#         return a - 0
+
+
+#     def addB(a, b):
+#         return B(a) - B(b)
+
+
+#     print("두개의 수를 입력하시오")
+#     x = int(input())
+#     y = int(input())
+#     print("두 수의 뺀 값은  %d이다" % (addB(x, y)))
+# elif R == 3:
+#     def C(a):
+#         return a * 1
+
+
+#     def addC(a, b):
+#         return C(a) * C(b)
+
+
+#     print("두개의 수를 입력하시오")
+#     x = int(input())
+#     y = int(input())
+#     print("두 수의 곱한 값은 %d이다" % (addC(x, y)))
+# elif R == 4:
+#     def E(a):
+#         return a / 1
+
+
+#     def addE(a, b):
+#         return E(a) / E(b)
+
+
+#     print("두개의 수를 입력하시오")
+#     x = int(input())
+#     y = int(input())
+#     print("두 수의 나눈값은 %d이다" %(addE(x, y)))
+
+# def findmax(a,b,c):
+#     if a > b:
+#         if a > c:
+#             max = a
+#         elif c > a:
+#             max = c
+#     elif b > a:
+#         if b > c:
+#             max = c
+#         elif c > b:
+#             max = c
+#     return max
+
+# print("3개의 점수를 입력하세요")
+# x = int(input())
+# y = int(input())
+# z = int(input())
+# print("최고점 : %d"%(findmax(x,y,z)))
+
+# A = int(input())
+# B = int(input())
+# def C():
+
+
+
+
+
+
+
+
+
